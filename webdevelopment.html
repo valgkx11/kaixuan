@@ -1,0 +1,104 @@
+<html>
+  <head>
+    <title>Safety - Valarie & EP1000</title>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Oxygen+Mono&display=swap" rel="stylesheet">
+ </head>
+  <body>
+    <header>
+		<h1>Website Development</h1>
+    </header>
+    <div class="menu-bar">
+      <ul>
+		<li><a href="#"><img src="logo.png"></a>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="weekly blog.html" class="active">Weekly Blog</a>
+          <div class="sub-menu-1">
+            <ul>
+              <li><a href="safety.html">FabLab Safety</a></li>
+              <li><a href="webdevelopment.html" class="active">Web Development</a></li>
+              <li><a href="cad.html">Computer Aided Design</a></li>
+              <li><a href="3d.html">3D Modelling</a></li>
+              <li><a href="programming.html">Programming</a></li>
+            </ul>
+          </div>
+        </li>
+        <li><a href="finalproject.html">Final Project</a></li>
+      </ul>
+    </div>
+    <div id="web-intro">
+      <h3>What is HTML?</h3>
+      <p>HTML stands for HyperText Markup Language.</p>
+      <p>It provides the basic structure of sites, which is modified and enhanced by other technologies like CSS and JavaScript. HTML is the core of every webpage. Regardless the complexity of a site. Rather than using a programming language to perform functions, HTML uses tags to identify different types of content and purposes they each serve to the webpage. Using HTML, you are able to add headings, format paragraphs, insert images, control some styling, and many more. HTML is the basic structure of a webpage.</p>
+      <br>
+	  
+	  <h3>What is CSS?</h3>
+	  <p>It describes how HTML elements are to be displayed on screen. CSS helps to style the content, so that it appears to the user the way it is intended to be seen. HTML and CSS languages are kept separate, to ensure that the website is built correctly before they're reformatted. CSS is what gives a webpage it's style as HTML was never intended to contain tags for formatting a webpage.</p>
+	  <br>
+	  
+	  <p>Below are some useful links to how I successfully created this Webpage.</p>
+	  <p>1.<a href="https://www.w3schools.com/">Visit W3Schools.com!</a></p>
+	  <p>2.<a class="selected" href="https://www.quackit.com/css/css_color_codes.cfm">Visit Quackit.com</a></p>
+	  <p>3.<a class="selected" href="https://www.youtube.com/watch?v=0afZj1G0BIE&ab_channel=JakeWright">Learn CSS in 12 Minutes</a></p>
+	  <p>4.<a class="selected" href="https://www.youtube.com/watch?v=bWPMSSsVdPk&ab_channel=JakeWright">Learn More HTML in 12 Minutes</a></p>
+	  <br>
+	  
+	  <h3>Webage before</h3>
+	  <p> - Without CSS only HTML is involved</p>
+	  <img src="webpage-before.jpg" alt="Webpage before">
+	  
+	  <div id="web-template">
+		<h3>Webage Template</h3>
+		<p> Before I created the website, I thought about a simple template for my "About" page.
+        <img src="web-template.jpg" alt="Website Template">
+      </div>
+      <p>After creating the sufficient HTML and CSS files, I uploaded my website to GitHub. I go through the steps on how to do this below, click <a href="#GitHub">here</a> to jump to that.</p>
+      <p>I tried to make this website as adaptable as possible so you can view it in almost any window size. But of course there are some images with a specified size so they may be only viewed to full on a computer screen.</p>
+    </div>
+	<br>
+    <div id="web-process">
+      <h3>Process in creation</h3>
+      <p>To start off I watched <a href="https://www.youtube.com/watch?v=0afZj1G0BIE"> Learn CSS in 12 Minutes</a> by Jake Wright. You should watch this if you want to get a simple understanding of website layouts. <br><br> I first created a HTML file called about.html, note that the first page of your website must be called index.html but subsequent ones can have any name of your choice. Next I gave my page a title, a header, some content (body) and a footer. I then reorganised the body content into different divisions with different IDs. I later added in a navigation bar, for this I will go into more details later on. </p>
+      <p>To make my wesite look the way it is, I used a stylesheet written in CSS called style.css. This is what makes the website have an organised and aesthetic feel to it. Without this, the website would just be very plain and full of text without any design or filled with misaligned images and texts. To use this stylesheet you need to link it to your HTML file in the head segment.</p>
+      <p>There are many other elements in this website that also made use of CSS stylesheets.</p>
+      <br>
+	  
+      <h3>HTML file for "About" page</h3>
+      <p>This is what my about.html file contains. I will talk about the navigation bar later on.</p>
+      <img src="about-html.png" alt="about.html Content">
+	  
+      <h3>CSS file for "About" page</h3>
+      <p>This is what my style.css file contains for the 'About' page. I changed my font to the current one by adding a link in the html file as you can find above. This font "Oxygen Mono" by Veron Adams can be found <a href="https://fonts.google.com/specimen/Oxygen+Mono?query=oxygen">here</a>.</p>
+      <img src="about-css-1.jpg" alt="CSS for About page (1)">
+      <img src="about-css-2.jpg" alt="CSS for About page (2)">
+    </div>
+    <div id="web-nav">
+      <h3>Navigation bar creation</h3>
+      <p>To start off I created a simple unordered list using the class function. This was placed in the body. I wanted my navigation bar to have a dropdown function when I hovered over it. I wanted it to also stay at the top of my page when I scrolled down. For this navigation bar I used references from <a href="https://www.w3schools.com/">W3Schools</a> and <a href="https://www.youtube.com/watch?v=wHFflWvii3M">How To Make Drop Down Menu Using HTML And CSS</a> by Easy Tutorials.</p>
+      <br>
+      <p>Here is the HTML codes for the navigation bar. Remember to put the active tag on the link that is currently active so that your CSS will work.</p>
+      <img src="navbar-html.jpg" alt="Navigation Bar HTML">
+      <p>This is the CSS code I used for my navigation bar. It is not perfect but it works and does its job.</p>
+      <img src="basic-nav-css.jpg" alt="Basic Navigation Bar CSS">
+      <img src="dropdown-nav-css.jpg" alt="DropDown Navigation Bar CSS">
+    </div>
+    <div id="GitHub">
+      <h3> Using GitHub</h3>
+      <p>How do you setup a website through GitHub? <br> Firstly, create an account on <a href="https://github.com/">GitHub.com</a><br>Next, download GitHub Desktop, this will be the place we create our repositories. Make sure you are logged in. <br> Next, create a new repository with what ever name you want it to be. Make sure you know the path of this so you can find it in your own local drive.</p>
+      <img src="desktop-repository.jpg" alt="Create Repository">
+      <p>Next, publish this repository to GitHub.com. Make sure to uncheck "Keep this code private" so that is can be viewed publicly.</p>
+      <img src="publish-repository.png" alt="Publish Repository">
+      <p>Next, add whatever files you want into this repository file found in your own local drive. make suer to include your index.html file. In that folder should already contain some files, do not remove them. Once you are done, you have to 'commit to main' and 'push to origin' so that the changes made are logged into the system.</p>
+      <img src="commit-to-main.jpg" alt="Commit to Main">
+      <p>Finally, go to GitHub.com and check that your repository is updated. Head over to settings > pages and follow my settings in the picture down below so that you get the link to your website. This is the address of your website.</p>
+      <img src="github-pages.png" alt="GitHub pages">
+      <p>And you are done! Remember to commit to main when you add or change some things in your respository and also push to origin so that your website is updated.
+    </div>
+
+  </body>
+  <footer>
+    <p>Copyright &copy; 2022 Valarie Goh</p>
+  </footer>
+</html>
