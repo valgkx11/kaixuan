@@ -1,0 +1,409 @@
+body{
+  background-image:url("car.png");
+  color: #CDE0FF;
+  margin: 0;
+  padding-left: 0;
+  font-family:'Oxygen Mono', monospace;
+}
+
+a{
+  color: #004FD5;
+  text-decoration: none;
+}
+
+h1{
+  font-size: 50px;
+  font-weight: bolder;
+  max-width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  position: center;
+}
+
+h3{
+  font-size: 25px;
+  color: #f6ff00;
+  font-style: oblique
+}
+
+h4{
+  font-size: 20px;
+  color: #00ff1a;
+  font-style: italic
+}
+
+header{
+  text-align: center;
+  padding-top: 90px;
+}
+.menu-bar {
+  background-color: #d0d9d8;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding-left: 45px;
+  z-index: 10;
+}
+.menu-bar ul{
+  list-style-type: none;
+  font-size: 20px;
+  overflow: hidden;
+  line-height: 70px;
+  margin: 0;
+  padding: 0;
+}
+.menu-bar li{
+  float: left;
+}
+.menu-bar li a{
+  color: #00245A;
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-weight: bold;
+  margin: 0;
+}
+.menu-bar .active{
+  background-color: #bdd6ff;
+}
+.menu-bar li a:hover{
+  background-color: #FFFFFF;
+  color: #00245A;
+}
+.sub-menu-1{
+  display: none;
+  clear: both;
+  position: absolute;
+}
+.menu-bar ul li:hover .sub-menu-1{
+  display: block;
+  position: absolute;
+  background-color: #FFFFFF;
+  margin: 0;
+  opacity: 90%;
+  text-align: left;
+}
+.menu-bar ul li:hover .sub-menu-1 ul{
+  display: block;
+  position: absolute;
+  list-style-type: none;
+  font-size: 13px;
+  overflow: hidden;
+  line-height: 16px;
+  margin: 0;
+  padding: 0;
+  background-color: #FFFFFF;
+  border-left-style: none;
+  border-right-style: none;
+  border-top-style: none;
+  border-bottom-style: solid;
+  border-color: white;
+  border-width: 4px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li{
+  width: 200px;
+  padding: 0;
+  text-align: left;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li a:hover{
+  background-color: #CDE0FF;
+  color: #0F0E0E;
+}
+
+#home p{
+  font-size: 18px;
+}
+#home h2{
+  font-size: 25px;
+  font-weight: bold;
+  color:#EFC934
+}
+#home{
+  text-align: justify;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px 0px;
+}
+
+#aboutweb p{
+  font-size: 18px;
+}
+#aboutweb{
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  border-bottom: 5px solid yellow;
+}
+#biodata p{
+  font-size: 18px;
+}
+#aboutme{
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 30px 0px;
+}
+#selfie img{
+  width: 30%;
+  float: left;
+  padding-left: 25px;
+}
+#biodata{
+  width: 60%;
+  float: right;
+  margin-top: -10px;
+}
+#topics{
+  clear: both;
+  width: 40%;
+  margin: auto;
+  padding: 10px;
+}
+#topics p{
+  font-size: 18px;
+}
+
+#safetyinfo{
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#safetyattire{
+  width: 70%;
+  float: left;
+}
+
+#outfit img{
+  width: 10%;
+  float: left;
+}
+
+#outfit{
+  margin-top: 35px;
+}
+
+#safetypractices{
+  clear: both;
+}
+
+#cadintro, #intro_3d, #p_intro{
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+#rastergraphics{
+  padding-top: 20px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 17px;
+}
+#picture-a, #picture-a img{
+  width: 550px;
+  float: left;
+  margin-right: 20px;
+  text-align: center;
+}
+#picture-b, #picture-b img{
+  width: 368px;
+  float: left;
+  text-align: center;
+}
+#alpha-channel{
+  clear: both;
+  float: left;
+  width: 40%;
+}
+#alpha-channel img{
+  clear: both;
+  float: left;
+  width: 80%;
+}
+#free-select{
+  float: left;
+  width: 40%;
+  padding-left: 40px;
+}
+#free-select img{
+  width: 10%;
+}
+#invert{
+  float: left;
+  width: 30%;
+  padding-left: 40px;
+}
+#invert img{
+  width: 70%;
+}
+#clear{
+  clear: both;
+  float: left;
+  width: 50%;
+}
+#clear img{
+  width: 60%;
+}
+#transparent-background{
+  float: left;
+  width: 50%;
+}
+
+#transparent-background img{
+  width: 100%;
+}
+#final-raster{
+  padding-top: 10px;
+  clear: both;
+}
+#final-raster img{
+  width: 1024px;
+}
+#projects{
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+#projects table,th,td{
+  border: 2px solid #1109FE;
+  border-collapse: collapse;
+}
+#projects th,td{
+  padding: 16px;
+  font-size: 18px;
+}
+#projects th{
+  text-align: left;
+  font-size: 18px;
+  background-color: #CBCAD7;
+  color: #322F7F;
+}
+#projects table{
+  border-spacing: 5px;
+  background-color:#1C1B38;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+#projects caption{
+  font-weight: bold;
+  font-size: 20px;
+  padding-bottom: 5px;
+}
+
+#web-intro{
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 17px;
+}
+#web-template img{
+  width: 70%;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+#web-process{
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 18px;
+}
+[alt="about.html Content"]{
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+[alt="CSS for About page (1)"] {
+  width: 30%;
+  float: left;
+  margin-left: 20%;
+}
+[alt="CSS for About page (2)"] {
+  width: 30%;
+  float: left;
+  margin-right: 20%;
+}
+#web-nav{
+  clear: both;
+  padding-top: 20px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 17px;
+}
+[alt="Navigation Bar HTML"] {
+  width: 60%;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+[alt="Basic Navigation Bar CSS"] {
+  width: 20%;
+  margin-left: 25%;
+  float: left;
+}
+[alt="DropDown Navigation Bar CSS"] {
+  width: 30%;
+  margin-right: 25%;
+  float: left;
+}
+#GitHub{
+  padding-top: 20px;
+  clear: both;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 17px;
+}
+[alt="Create Repository"], [alt="Publish Repository"]{
+  width: 20%;
+}
+[alt="Commit to Main"], [alt="GitHub pages"]{
+  width: 70%;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+#table-2{
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+#table-2 table,th,td{
+  border: 2px solid #00245A;
+  border-collapse: collapse;
+}
+#table-2 th,td{
+  padding: 15px;
+  font-size: 16px;
+}
+#table-2 th{
+  text-align: left;
+  font-size: 18px;
+  background-color: #00245A;
+  color: #fff;
+}
+#table-2 table{
+  border-spacing: 5px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+#table-2 caption{
+  font-weight: bold;
+  text-align: left;
+  font-size: 20px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+footer{
+  clear: both;
+  background-color: #CBCAD7;
+  color: #00245A;
+  line-height: 30px;
+  text-align: right;
+  padding-right: 20px;
+  font-size: 12px;
+  font-weight: bold;
+}
