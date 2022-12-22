@@ -7,7 +7,7 @@
   </head>
   <body>
     <header>
-      <h1>FabLab Safety</h1>
+      <h1>3D Modeling</h1>
     </header>
     <div class="menu-bar">
       <ul>
@@ -40,8 +40,6 @@
               <li>Exercise: <a href="#nut-3d">Hex Nut</a></li>
               <li>Assignment: <a href="#chess-3d">Chess Piece - Knight</a></li>
             </ul>
-	</div>
-        </li>
     <div id="modelling-3d">
       <h3>3d Modelling Introduction</h3>
       <p>For 3D modelling in Fusion 360 there are 3 main methods: Extrusion, Rotation and Sculpting. Extrusion is where you extend a 2D sketch profile into a 3rd plane. Rotation is where you rotate a 2D plane profile around an axis. Sculpting is where you start with a 3D object and by adding, removing, dividing, pulling and pushing the sections form a finished product.</p>
@@ -61,53 +59,7 @@
 	
       <img src="images/cad-nametag.png" alt="Name Tag">
 
-    </div>
-    <div id="lego-3d">
-      <h3>Exercise: Lego Brick</h3>
-      <p>Let's build a Lego Brick! I'm sure you have played with Legos before so why not make them yourself. I would not be going too in depth for this exercise as I followed this video on <a href="https://www.youtube.com/watch?v=6yPKMSb6ja8">How to 3D Model a Lego Brick</a> by Product Design Online. You can also follow this tutorial if you are interested. </p>
-      <p>For this exercise I made use of functions like shell, extrude, pattern and fillet. My finished product is shown below, you can also find the file of what I did <a href="files/Lego.f3d">here</a>.</p>
-      <img src="images/cad-lego.png" alt="Lego Brick">
-      <img src="images/cad-lego-under.png" alt="Lego Brick Bottom">
-    </div>
-    <div id="cubes-3d">
-      <h3>Exercise: Cubes</h3>
-      <p>Make this object that made up of 20 cubes that are 20mm x 20mm x 20mm. This is then shelled to a thickness of 4mm. For this i used functions such as copy and paste, extrude, shell and combine. The file can be found <a href="files/Cubes.f3d">here</a>.</p>
-      <img src="images/cad-cubes.png" alt="Cubes">
-      <img src="images/cad-cubes-under.png" alt="Cubes Bottom">
-      <p style="clear: both; padding-top: 20px;">Well, how to create this? There are many methods but what did I use? I took a single cube, copy and pasted it 20 times until the shape was completed. I then combined all the cubes into one body. Next, I shelled the bottom to a thickness of 4mm. That completes this exercise.</p>
-      <img src="images/cad-cube.png" alt="Single Cube">
-    </div>
-    <div id="mug-3d">
-      <h3>Exercise: Mug with Handle</h3>
-      <p>We are continuing our use of Fusion 360 by making a mug with a handle. The diamensions are 50mm(d) x 80mm(h). We needed to include an arc at the base of the mug and have the thickness be 2.5mm. Add a handle that is 6mm thick, for this it is free and easy.</p>
-      <iframe style="float: left;"src="https://ichat1941.autodesk360.com/shares/public/SH919a0QTf3c32634dcfd498bd50b7440337?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
-      <div id="mug-1">
-        <p>To create this we first start with creating a sketch of how the main mug body should look like. This sketch profile is then revolved along the centre axis.</p>
-        <img src="images/cad-mug-step1.png" alt="Mug step 1">
-      </div>
-      <div id="mug-2">
-        <p>Next, create a new sketch on the same plane as the first and create a handle of your choice. A tip is to create the tips of the handle slightly into the revolved profile so that it is fully inside. For my handle I used the fit point spline function.</p>
-        <img src="images/cad-mug-step2.png" alt="Mug step 2">
-      </div>
-      <p style="clear: both;">Extrude this handle bar symmetrically to a thickness of 6mm. And the mug is completed!</p>
-    </div>
-    <div id="nut-3d">
-      <h3>Exercise: Hex Nut</h3>
-      <p>A hex nut? Yeah it can also be made by 3D modelling. For this I will go into slight details as I followed this video on <a href="https://www.youtube.com/watch?v=Xho87HJ-XDo">How to 3D Model a Hex Nut
-      </a> by Product Design Online. You can follow the tutorial if you are interested. This hex nut is 20mm between flat surfaces and 10mm thick.</p>
-      <iframe src="https://ichat1941.autodesk360.com/shares/public/SH919a0QTf3c32634dcf4e5dbc9156a7e84b?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
-      <p>First, a sketch of a pentagon. Then extrude it 10mm. Next, create a triangle as shown below and use the revolve function and cut away from the current body.</p>
-      <img src="images/cad-nut-step1.png" alt="Hex Nut step 1">
-      <img src="images/cad-nut-step2.png" alt="Hex Nut step 2">
-      <p style="clear: both;">Once done create a plane in the middle of the nut and mirror the revolve cut profile. Now both sides should have this chamfer. Lastly, add the threaded hole and it is done.</p>
-      <img src="images/cad-nut-step3.png" alt="Hex nut step 3">
-    </div>
-    <div id="chess-3d">
-      <h3>Assignment: Chess Piece - Knight</h3>
-      <p>Using what was taught to far, design a knight chess piece that has a base of 30mm, height of 50mm, and head thickness of 5mm. The base should also be hollow. Using a template image as a canvas to help complete this exercise.</p>
-      <iframe src="https://ichat1941.autodesk360.com/shares/public/SH919a0QTf3c32634dcfd0f90cb74b6abfba?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
-      <p>The template image I used is this knight chess piece template I took off the web. For this, I used functions such as extrude, loft, fillet and a few others. The curved lines can also be created using the line function.</p>
-      <img src="images/chess-canvas.png" alt="Chess Piece Canvas">
+    
     </div>
   </body>
   <footer>
