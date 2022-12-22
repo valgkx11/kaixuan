@@ -11,7 +11,7 @@
     </header>
     <div class="menu-bar">
       <ul>
-		<li><a href="#"><img src="image/logo.jpg"></a>
+	<li><a href="#"><img src="image/logo.jpg"></a>
         <li><a href="index.html">Home</a></li>
         <li><a href="about.html">About</a></li>
         <li><a href="weekly blog.html" class="active">Weekly Blog</a>
@@ -28,7 +28,7 @@
         <li><a href="finalproject.html">Final Project</a></li>
       </ul>
 	  </div>
-         <div id="intro_3d">
+    <div id="intro_3d">
       <h3>List of Topics Covered</h3>
         <ul style="list-style-type: circle;">
           <li><a href="#modelling-3d">3D Modelling Introduction</a>
@@ -40,30 +40,27 @@
               <li>Exercise: <a href="#nut-3d">Hex Nut</a></li>
               <li>Assignment: <a href="#chess-3d">Chess Piece - Knight</a></li>
             </ul>
-          </li>
-          <li><a href="#cutting-intro">Computer Controlled Cutting Introduction</a></li>
-            <ul style="list-style-type: disc;">
-              <li>Exercise: <a href="#laptop-laser">Laptop Stand</a></li>
-              <li>Assignment: <a href="#musicbox-laser">Music Box</a></li>
-            </ul>
-            <li><a href="#laser-cut">Laser Cutting</a></li>
-            <li><a href="#print-3d">3D Printing</a></li>
-        </ul>
-    </div>
+	</div>
+        </li>
     <div id="modelling-3d">
       <h3>3d Modelling Introduction</h3>
       <p>For 3D modelling in Fusion 360 there are 3 main methods: Extrusion, Rotation and Sculpting. Extrusion is where you extend a 2D sketch profile into a 3rd plane. Rotation is where you rotate a 2D plane profile around an axis. Sculpting is where you start with a 3D object and by adding, removing, dividing, pulling and pushing the sections form a finished product.</p>
     </div>
     <div id="nametag-3d">
       <h3>Exercise: Name Tag</h3>
-      <p>Let's make a name tag. The dimensions are 30mm x 70mm x 4mm. The rim is of thickness 1.5mm and height 2.5mm. The key-ring hole with diameter of 4mm, and 1.5mm rim. Name/text to be 0.5mm below the surface. The base should be 1.5mm thick. The file of what I did can be found <a href="files/Name Tag.f3d">here</a>.</p>
+	  <li><a href="#modelling-3d">Let's make a name tag.</a>
+		<ul style="list-style-type: disc;">
+			<li>dimensions: 30mm x 70mm x 4 mm</a></li>
+			<li>rim of 1.5mm thickness around the edges, height 2.5mm</a></li>
+			<li>key-ring hole of 4mm, reenforced with 1.5mm rim</a></li>
+			<li>name or design/pattern 0.5mm below surface</a></li>
+			<li>base of name tag 1.5mm thick</a></li>
+		</ul>
+		</div>
+       	 </li>
+	
       <img src="images/cad-nametag.png" alt="Name Tag">
-      <p>Step 1, sketch the basic shape of the base, what I did is shown below. Once done, extrude this to a height of 1.5mm.</p>
-      <img src="images/nametag-step1.png" alt="Name Tag step 1">
-      <p>Step 2, on the surface of the extruded body, create a new sketch and sketch out the rim areas as shown below. Once done, extrude this to a height of 2.5mm.</p>
-      <img src="images/nametag-step2.png" alt="Name Tag step 2">
-      <p>Step 3, on the same surface as in step 2, create a new sketch and use the text function. Key in the name or text of choice, when choosing the font make sure it is not too thin. You should get something like what is shown. Once done, extrude this text to a height of 2mm. And you are done!</p>
-      <img src="images/nametag-step3.png" alt="Name Tag step 3">
+
     </div>
     <div id="lego-3d">
       <h3>Exercise: Lego Brick</h3>
@@ -112,14 +109,8 @@
       <p>The template image I used is this knight chess piece template I took off the web. For this, I used functions such as extrude, loft, fillet and a few others. The curved lines can also be created using the line function.</p>
       <img src="images/chess-canvas.png" alt="Chess Piece Canvas">
     </div>
-    <div id="cutting-intro">
-      <h3>Computer Controlled Cutting Introduction</h3>
-      <p>For Computer Controlled Cutting, it works on a 2D profile which provides an outline of the cut. Vector file formats are needed to begin laser cutting, these are DXF (Data eXchange Format), PDF (Portable Document Format), SVG (Scalable Vector Graphics). For my assignments I would be using <a href="https://librecad.org/"><b>LibreCAD</b></a> to produce my DXF files for printing.</p>
-    </div>
-    <div id="laptop-laser">
-      <h3>Exercise: Laptop Stand</h3>
-      <p>Using Parameters in Fusion360 I made the laptop stand. The laptop stand also used other tools like combine and join to create. Using parameters make the editing process quicker especially if the thickness of the material is known.The file can be found <a href="files/Laptop Stand.f3d">here</a>.</p>
-      <img src="images/laptop-split.png" alt="Laptop 1">
-      <img src="images/laptop-fixed.png" alt="Laptop 2">
-      <p style="clear: both;">I created each coloured component then joined them such that intersecting parts were cut from the selected components.</p>
-    </div>
+  </body>
+  <footer>
+    <p>Copyright &copy; 2022 Valarie Goh</p>
+  </footer>
+</html>
