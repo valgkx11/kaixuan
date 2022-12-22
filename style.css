@@ -194,6 +194,15 @@ header{
   margin-left: auto;
   margin-right: auto;
 }
+#vectorgraphics, #sketching-2d, #modelling-3d, #nametag-3d, #lego-3d, #cubes-3d, #mug-3d, #nut-3d, #chess-3d, #cutting-intro, #laptop-laser{
+  clear: both;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 17px;
+  padding-top: 20px;
+  text-align: justify;
+}
 #rastergraphics{
   padding-top: 20px;
   width: 80%;
