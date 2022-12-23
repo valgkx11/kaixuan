@@ -1,5 +1,5 @@
 body{
-  background-image:url("image/car.jpg");
+  background-image:url("car.png");
   color: #CDE0FF;
   margin: 0;
   padding-left: 0;
@@ -42,7 +42,7 @@ header{
   top: 0;
   width: 100%;
   padding-left: 45px;
-  z-index: 10;
+  z-index: 20;
 }
 .menu-bar ul{
   list-style-type: none;
@@ -90,7 +90,7 @@ header{
   list-style-type: none;
   font-size: 14px;
   overflow: hidden;
-  line-height: 25px;
+  line-height: 16px;
   margin: 0;
   padding: 0;
   background-color: #FFFFFF;
@@ -112,7 +112,7 @@ header{
 }
 
 #home p{
-  font-size: 18px;
+  font-size: 19px;
 }
 #home h2{
   font-size: 25px;
@@ -140,6 +140,7 @@ header{
   margin-left: auto;
   margin-right: auto;
   border-bottom: 5px solid yellow;
+}
 #biodata p{
   font-size: 18px;
 }
@@ -159,38 +160,35 @@ header{
   float: right;
   margin-top: -10px;
 }
+
 #safetyinfo{
   width: 80%;
   margin-left: auto;
   margin-right: auto;
 }
+
 #safetyattire{
   width: 70%;
   float: left;
 }
+
 #outfit img{
   width: 10%;
   float: left;
 }
+
 #outfit{
   margin-top: 35px;
 }
+
 #safetypractices{
   clear: both;
 }
+
 #cadintro, #intro_3d, #p_intro{
   width: 80%;
   margin-left: auto;
   margin-right: auto;
-}
-#vectorgraphics, #sketching-2d, #modeling-3d, #nametag-3d, #lego-3d, #cubes-3d, #mug-3d, #nut-3d, #chess-3d, #cutting-intro, #laptop-laser{
-  clear: both;
-  width: 80%;
-  margin-left: auto;
-  margin-right: auto;
-  font-size: 17px;
-  padding-top: 20px;
-  text-align: justify;
 }
 #rastergraphics{
   padding-top: 20px;
@@ -309,7 +307,7 @@ header{
   font-size: 18px;
 }
 [alt="about.html Content"]{
-  width: 80%;
+  width: 20%;
   margin-left: 10%;
   margin-right: 10%;
 }
