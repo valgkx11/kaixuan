@@ -9,16 +9,16 @@ body {
 .timeline {
   position: relative;
   width: 100%;
-  margin: 0 auto;
-  padding: 15px 0;
+  margin: auto;
+  padding: 30px 0;
 }
 .timeline::after {
   content: '';
   position: absolute;
-  width: 2px;
+  width: 1px;
   background: #2a77eb;
-  top: 0;
-  bottom: 0;
+  top: 30;
+  bottom: -200;
   left: 50%;
   margin-left: -1px;
 }
@@ -75,10 +75,10 @@ body {
   z-index: 1;
 }
 .container.left .date {
-  right: -75px;
+  right: -80px;
 }
 .container.right .date {
-  left: -75px;
+  left: -80px;
 }
 .container .icon {
   position: absolute;
@@ -96,10 +96,10 @@ body {
   z-index: 1;
 }
 .container.left .icon {
-  right: 56px;
+  right: 60px;
 }
 .container.right .icon {
-  left: 56px;
+  left: 60px;
 }
 .container .content {
   padding: 30px 90px 30px 30px;
@@ -120,7 +120,7 @@ body {
 .container .content p {
   margin: 0;
   font-size: 15px;
-  line-height: 20px;
+  line-height: 30px;
   color: #00245A;
 }
 @media (max-width: 800px) {
@@ -137,7 +137,7 @@ body {
 }
 .container.left::after,
 .container.right::after {
-  left: 82px;
+  left: 90px;
 }
 .container.left::before,
 .container.right::before {
@@ -152,7 +152,7 @@ body {
 .container.left .icon,
 .container.right .icon {
   right: auto;
-  left: 146px;
+  left: 150px;
 }
 .container.left .content,
 .container.right .content {
