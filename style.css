@@ -358,7 +358,40 @@ header{
   margin-left: 15%;
   margin-right: 15%;
 }
-
+#web-extra{
+  clear: both;
+  padding-top: 20px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 17px;
+}
+[alt="Timeline HTMl"]{
+  width: 70%;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+[alt="Timeline CSS (1)"],[alt="Timeline CSS (2)"]{
+  width: 20%;
+  float: left;
+}
+[alt="Timeline CSS (3)"]{
+  width: 25%;
+  float: left;
+}
+[alt="Timeline CSS (4)"]{
+  width: 35%;
+  float: left;
+}
+#vectorgraphics, #sketching-2d, #modelling-3d, #nametag-3d, #lego-3d, #cubes-3d, #mug-3d, #nut-3d, #chess-3d, #cutting-intro, #laptop-laser{
+  clear: both;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 17px;
+  padding-top: 20px;
+  text-align: justify;
+} 
 #table-2{
   width: 80%;
   margin-left: auto;
