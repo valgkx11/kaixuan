@@ -208,6 +208,11 @@ header{
   float: left;
   text-align: center;
 }
+#handphone Stand, #handphonestand img{
+  width: 368px;
+  float: left;
+  text-align: center;
+}
 #alpha-channel{
   clear: both;
   float: left;
