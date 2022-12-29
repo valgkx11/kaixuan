@@ -185,7 +185,7 @@ header{
   clear: both;
 }
 
-#cadintro, #intro_3d, #p_intro{
+#cadintro, #intro_3d, #p_intro, #controlled-intro{
   width: 80%;
   margin-left: auto;
   margin-right: auto;
@@ -385,7 +385,7 @@ header{
   width: 35%;
   float: left;
 }
-#vectorgraphics, #sketching-2d, #modeling-3d, #nametag-3d, #lego-3d, #cubes-3d, #mug-3d, #nut-3d, #chess-3d, #cutting-intro, #laptop-laser, #handphonestand-3d{
+#vectorgraphics, #sketching-2d, #modeling-3d, #nametag-3d, #lego-3d, #cubes-3d, #mug-3d, #nut-3d, #chess-3d, #cutting-intro, #laptop-laser, #handphonestand-3d, #keychain-laser, #laptopstand-laser{
   clear: both;
   width: 80%;
   margin-left: auto;
