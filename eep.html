@@ -1,0 +1,211 @@
+<html>
+  <head>
+    <title>Electronic Embedded Programming - Valarie & EP1000</title>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Oxygen+Mono&display=swap" rel="stylesheet">
+ </head>
+  <body>
+    <header>
+		<h1>Electronic Embedded Programming</h1>
+    </header>
+    <div class="menu-bar">
+      <ul>
+	<li><a href="#vectorgraphics"><img src="image/logo.png"></a>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="weekly blog.html" class="active">Weekly Blog</a>
+          <div class="sub-menu-1">
+            <ul>
+				<li><a href="fablabsafety.html">Introduction, FabLab Safety, Tools</a></li>
+				<li><a href="webdevelopment.html">Software tools, HTML & CSS, Website</a></li>
+				<li><a href="pwd.html">Personal Website Development, HTML & CSS</a></li>
+				<li><a href="cad.html">Computer Graphics, Computer Aided Design</a></li>
+				<li><a href="2d&3d.html">2D Drawing and 3D Modelling</a></li>
+				<li><a href="3d.html">3D Modelling & 3D Printing</a></li>
+				<li><a href="ccc.html">Computer Controlled Cutting & Laser Cutting</a></li>
+				<li><a href="lcq.html">Laser Cutting Quiz & Practical Demonstration</a></li>
+				<li><a href="pba.html">Parametric box Assignment</a></li>
+				<li><a href="eep.html">Electronic Embedded Programming</a></li>
+				<li><a href="bod.html">Basic output devices</a></li>
+				<li><a href="bid.html">Basic input devices</a></li>   
+            </ul>
+          </div>
+        </li>
+        <li><a href="moduleproject.html">Module Project</a></li>
+      </ul>
+    </div>
+	
+	<div id="intro-embeddedsystem1">
+	    <h3>List of Topics Covered</h3>
+        <ul style="list-style-type: circle;">
+		  <li>Electronic embedded programming: <a href="#eep-intro">Introduction</a></li>
+		  <li>Microcontroller Systems: <a href="#msi-intro">Introduction</a></li>
+		  <li>Arduino Systems: <a href="#as-intro">Introduction</a></li>
+		  <li>Uno Board: <a href="#ub-feat">Features</a></li>
+		  <li>Programming: <a href="#prog-start">Getting Started</a></li>
+		<ul style="list-style-type: disc;">
+          <li>Example: <a href="#using-externalLED">Using an External LED</a></li>
+	      <li>Exercise: <a href="#SegmentLEDTimer">7 Segment LED Timer</a></li>
+		  <li>Assignment: <a href="#countdowntimer">A countdown timer</a></li>
+	</div>
+
+	<div id="eep-intro">
+		<h3>Electronic Embedded Programming Introduction</h3>
+		<ul style="list-style-type: circle;">
+			<li>The process of programming small computers or microcontrollers that are embedded in electronic devices or systems.</a></li>
+			<li>These microcontrollers are responsible for controlling the functions of the device, such as its display, sensors, motors, and other hardware components.</a></li>
+			<li>It is used in a wide range of industries, including automotive, aerospace, medical devices, and consumer electronics.</a></li>
+			<li> Examples of products that rely on embedded programming includes:</a></li>
+		<ul style="list-style-type: disc;">
+			<li>Smartphones</a></li>
+			<li>Smart home devices</a></li>
+			<li>Cars</a></li>
+			<li>Drones</a></li>
+			<li>Robots.</a></li>
+		</ul>
+	</div>
+	
+	<div id="msi-intro">
+		<h3>Microcontroller Systems Introduction</h3>
+			<ul style="list-style-type: circle;">
+				<li>It refer to electronic systems that use microcontrollers, which are small computer chips that contain a CPU, memory, and input/output peripherals on a single integrated circuit.</a></li>
+				<li>These systems are used in a variety of applications, from simple consumer electronics devices to complex industrial control systems.</a></li>
+				<li> A microcontroller system typically consists of:</a></li>
+			<ul style="list-style-type: disc;">
+				<li>Microcontroller chip</a></li>
+				<li>External memory</a></li>
+				<li>Power supply</a></li>
+				<li>Input/output peripherals</a></li>
+					<ul style="list-style-type: number;">
+						<li>Sensors.</a></li>
+						<li>Actuators.</a></li>
+						<li>Communication interface such as Ethernet or USB.</a></li>
+					</ul>
+			</ul>
+	</div>
+	
+	<div id="as-intro">
+		<h3>Arduino Systems Introduction</h3>
+		<img src="image/arduino.jpg"alt="flms"style="width:500px;height:300px;">
+			<ul style="list-style-type: circle;">
+				<li>Open source libraries & support</a></li>
+				<li>Inexpensive, lots of clones, 3rd party manufacturers</a></li>
+				<li>Simple, clear programming environment using GUI</a></li>
+				<li>Cross-platform (Windows, MacOSx, Linux)</a></li>
+			</ul>
+		<h3>Arduino Uno</h3>
+			<ul style="list-style-type: circle;">
+				<li>Most common microcontroller board to begin Arduino projects.</a></li>
+				<li>Uses a ATmel Atmega328P processor with a separate programmable interface using another Atmel processor and USB.</a></li>
+				<li>Has sockets for interfacing and power</a></li>
+			</ul>
+	</div>
+	
+	<div id="ub-feat">
+		<h3>Uno Board Features</h3>
+			<img src="image/unoboard.jpg"alt="flms"style="width:500px;height:300px;">
+			<ul style="list-style-type: circle;">
+				<li>Power</a></li>
+			<ul style="list-style-type: disc;">
+				<li>Can be powered from USB port (<0.5A)</a></li>
+				<li>External power from DC jack 6V ~ 12V</a></li>
+				<li>Power outputs: 0 (GND), 3.3V, 5.0V (up to 0.3A), Vref (5V)</a></li>
+			</ul>
+			</ul>
+			<ul style="list-style-type: circle;">
+				<li>Digital Input/Output pins</a></li>
+			<ul style="list-style-type: disc;">
+				<li>Can be configured as Input, Output or Pull-Up Inputs</a></li>
+				<li>Has Pulse-Width-Modulation on ~ indicated Pins</a></li>
+				<li>Built-in LED on Pin13</a></li>
+			</ul>
+			</ul>
+			<ul style="list-style-type: circle;">
+				<li>Analog Inputs</a></li>
+			<ul style="list-style-type: disc;">
+				<li>10-bit Analog inputs</a></li>
+			</ul>
+			</ul>
+			<ul style="list-style-type: circle;">
+				<li>Others</a></li>
+			<ul style="list-style-type: disc;">
+				<li>Serial I/O interface</a></li>
+				<li>I2C interface</a></li>
+				<li>SPI interface</a></li>
+			</ul>	
+			</ul>
+    </div>
+	
+	<div id="prog-start">
+		<h3>Programming the Arduino Uno</h3>
+			<img src="image/program.jpg"alt="flms"style="width:500px;height:300px;">
+			<ul style="list-style-type: circle;">
+				<li>Saved as sketches (extension .ino)</a></li>
+				<li>Follows most characteristics of a C++ syntax/structure</a></li>
+				<li>Always has 2 functions:</a></li>
+			<ul style="list-style-type: disc;">
+				<li>setup() – code is only executed once</a></li>
+				<ul style="list-style-type: number;">
+					<li>Contains initialization code</a></li>
+					<li>Contains initialization of variables</a></li>
+					<li>Contains setup and configuration of I/O ports</a></li>
+					<li>Contains setup of other interfaces</a></li>
+				</ul>
+			</ul>
+			<ul style="list-style-type: disc;">
+				<li>loop() – code is continuously looped </a></li>
+				<ul style="list-style-type: number;">
+					<li>The loop() function is executed after the setup() code completes.</a></li>
+					<li>Loops infinitely executing code within the loop() function</a></li>
+					<li>Place your code/program within this function, there is NO stopping this code</a></li>
+				</ul>
+			</ul>
+			</ul>
+			<ul style="list-style-type: circle;">
+				<li>Digital Input/Output(simplified operations)</a></li>
+			<ul style="list-style-type: disc;">
+				<li>pinMode() - initialises the pin</a></li>
+				<li>digitalRead() - reads/inputs a digital value</a></li>
+				<li>digitalWrite() - outputs a digital value</a></li>
+				<li>analogWrite() - outputs a PWM</a></li>
+	</div>
+	
+	<div id="using-externalLED">
+		<h3>Example: Using an External LED</h3>
+		<iframe width="560" height="315" video src="video/externalled.mp4" alt="externalLED"></iframe>
+		<ul style="list-style-type: circle;">
+			<li>I wired up all the circuits</a></li>
+			<li>I used 220ohm resistor and connect to pin 8</a></li>
+			<li>I used 1000 delay</a></li>
+			<li>Compile, Upload, Execute</a></li>
+		</ul>
+		<iframe src=https://create.arduino.cc/editor/vglol11/b15f9384-b216-4a15-a956-39d412ac1fd6/preview?embed style="height:510px;width:100%;margin:10px 0" frameborder=0></iframe>
+	</div>
+	
+	<div id="SegmentLEDTimer">
+		<h3>Exercise 7 Segment LED Timer</h3>
+		<iframe width="560" height="315" video src="video/7SegmentLEDTimer.mp4" alt="7SegmentLEDTimer"></iframe>
+		<ul style="list-style-type: circle;">
+			<li>Made up of 7 separate LEDs</a></li>
+			<li>Combined in segments,forms digits</a></li>
+			<li>Change the switches to see the effect</a></li>
+		</ul>
+	</div>
+	
+	<div id="countdowntimer">
+		<h3>Assignment: A countdown timer</h3>
+		<iframe width="560" height="315" video src="video/countdowntimer.mp4" alt="countdowntimer"></iframe>
+		<ul style="list-style-type: circle;">
+			<li>Using 7-segment circuit</a></li>
+			<li>Convert the circuit which uses an Uno to control the 7-segment CC display</a></li>
+			<li>Write a program that counts from 0 to 9 continuously</a></li>
+		</ul>
+		<iframe src=https://create.arduino.cc/editor/vglol11/83d1c025-e8d9-4896-9aee-8589b07730be/preview?embed style="height:510px;width:100%;margin:10px 0" frameborder=0></iframe>
+	</div>
+	
+</body>
+  <footer>
+    <p>Copyright &copy; 2022 Valarie Goh</p>
+  </footer>			
+</html>

@@ -1,0 +1,95 @@
+<html>
+  <head>
+    <title>Personal Website Development, HTML & CSS - Valarie & EP1000</title>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Oxygen+Mono&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <h1>Personal Website Development, HTML & CSS</h1>
+    </header>
+    <div class="menu-bar">
+      <ul>
+	  <li><a href="#vectorgraphics"><img src="image/logo.png"></a>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="weekly blog.html" class="active">Weekly Blog</a>
+          <div class="sub-menu-1">
+            <ul>
+				<li><a href="fablabsafety.html">Introduction, FabLab Safety, Tools</a></li>
+				<li><a href="webdevelopment.html">Software tools, HTML & CSS, Website</a></li>
+				<li><a href="pwd.html">Personal Website Development, HTML & CSS</a></li>
+				<li><a href="cad.html">Computer Graphics, Computer Aided Design</a></li>
+				<li><a href="2d&3d.html">2D Drawing and 3D Modelling</a></li>
+				<li><a href="3d.html">3D Modelling & 3D Printing</a></li>
+				<li><a href="ccc.html">Computer Controlled Cutting & Laser Cutting</a></li>
+				<li><a href="lcq.html">Laser Cutting Quiz & Practical Demonstration</a></li>
+				<li><a href="pba.html">Parametric box Assignment</a></li>
+				<li><a href="eep.html">Electronic Embedded Programming</a></li>
+				<li><a href="bod.html">Basic output devices</a></li>
+				<li><a href="bid.html">Basic input devices</a></li>   
+            </ul>
+          </div>
+        </li>
+        <li><a href="moduleproject.html">Module Project</a></li>
+      </ul>
+    </div>
+    <div id="pwd">
+	<h3>Webage before</h3>
+	  <p> - Without CSS only HTML is involved</p>
+	  <img src="image/webpage-before.jpg" alt="Webpage before">
+	  
+	  <div id="web-template">
+		<h3>Webage Template</h3>
+		<p> Before I created the website, I thought about a simple template for my "About" page.
+        <img src="image/web-template.jpg" alt="Website Template">
+      </div>
+      <p>After creating the sufficient HTML and CSS files, I uploaded my website to GitHub. I go through the steps on how to do this below, click <a href="#GitHub">here</a> to jump to that.</p>
+      <p>I tried to make this website as adaptable as possible so you can view it in almost any window size. But of course there are some images with a specified size so they may be only viewed to full on a computer screen.</p>
+    </div>
+	<br>
+    <div id="web-process">
+      <h3>Process in creation</h3>
+      <p>To start off I watched <a href="https://www.youtube.com/watch?v=0afZj1G0BIE"> Learn CSS in 12 Minutes</a> by Jake Wright. You should watch this if you want to get a simple understanding of website layouts. <br><br> I first created a HTML file called about.html, note that the first page of your website must be called index.html but subsequent ones can have any name of your choice. Next I gave my page a title, a header, some content (body) and a footer. I then reorganised the body content into different divisions with different IDs. I later added in a navigation bar, for this I will go into more details later on. </p>
+      <p>To make my wesite look the way it is, I used a stylesheet written in CSS called style.css. This is what makes the website have an organised and aesthetic feel to it. Without this, the website would just be very plain and full of text without any design or filled with misaligned images and texts. To use this stylesheet you need to link it to your HTML file in the head segment.</p>
+      <p>There are many other elements in this website that also made use of CSS stylesheets.</p>
+      <br>
+	  
+      <h3>HTML file for "About" page</h3>
+      <p>This is what my about.html file contains. I will talk about the navigation bar later on.</p>
+      <img src="image/about-html.jpg" alt="about.html Content">
+	  
+      <h3>CSS file for "About" page</h3>
+      <p>This is what my style.css file contains for the 'About' page. I changed my font to the current one by adding a link in the html file as you can find above. This font "Oxygen Mono" by Veron Adams can be found <a href="https://fonts.google.com/specimen/Oxygen+Mono?query=oxygen">here</a>.</p>
+      <img src="image/about-css-1.jpg" alt="CSS for About page (1)">
+      <img src="image/about-css-2.jpg" alt="CSS for About page (2)">
+    </div>
+    <div id="web-nav">
+      <h3>Navigation bar creation</h3>
+      <p>To start off I created a simple unordered list using the class function. This was placed in the body. I wanted my navigation bar to have a dropdown function when I hovered over it. I wanted it to also stay at the top of my page when I scrolled down. For this navigation bar I used references from <a href="https://www.w3schools.com/">W3Schools</a> and <a href="https://www.youtube.com/watch?v=wHFflWvii3M">How To Make Drop Down Menu Using HTML And CSS</a> by Easy Tutorials.</p>
+      <br>
+      <p>Here is the HTML codes for the navigation bar. Remember to put the active tag on the link that is currently active so that your CSS will work.</p>
+      <img src="image/navbar-html.jpg" alt="Navigation Bar HTML">
+      <p>This is the CSS code I used for my navigation bar. It is not perfect but it works and does its job.</p>
+      <img src="image/basic-nav-css.jpg" alt="Basic Navigation Bar CSS">
+      <img src="image/dropdown-nav-css.jpg" alt="DropDown Navigation Bar CSS">
+    </div>
+    <div id="GitHub">
+      <h3> Using GitHub</h3>
+      <p>How do you setup a website through GitHub? <br> Firstly, create an account on <a href="https://github.com/">GitHub.com</a><br>Next, download GitHub Desktop, this will be the place we create our repositories. Make sure you are logged in. <br> Next, create a new repository with what ever name you want it to be. Make sure you know the path of this so you can find it in your own local drive.</p>
+      <img src="image/desktop-repository.jpg" alt="Create Repository">
+      <p>Next, publish this repository to GitHub.com. Make sure to uncheck "Keep this code private" so that is can be viewed publicly.</p>
+      <img src="image/publish-repository.jpg" alt="Publish Repository">
+      <p>Next, add whatever files you want into this repository file found in your own local drive. make suer to include your index.html file. In that folder should already contain some files, do not remove them. Once you are done, you have to 'commit to main' and 'push to origin' so that the changes made are logged into the system.</p>
+      <img src="image/commit-to-main.jpg" alt="Commit to Main">
+      <p>Finally, go to GitHub.com and check that your repository is updated. Head over to settings > pages and follow my settings in the picture down below so that you get the link to your website. This is the address of your website.</p>
+      <img src="image/github-pages.jpg" alt="GitHub pages">
+      <p>And you are done! Remember to commit to main when you add or change some things in your respository and also push to origin so that your website is updated.
+    </div>
+
+  </body>
+  <footer>
+    <p>Copyright &copy; 2022 Valarie Goh</p>
+  </footer>
+</html>
